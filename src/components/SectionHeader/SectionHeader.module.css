@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 64px 0 48px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.number {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 22px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.label {
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  font-size: 12px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(28px, 4vw, 46px);
+  color: var(--text-primary);
+  letter-spacing: -1.8px;
+  line-height: 1.05;
+  max-width: 720px;
+}

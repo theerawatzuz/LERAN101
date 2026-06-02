@@ -1,0 +1,81 @@
+/* ─── Google Font ────────────────────────────────────────────── */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600&display=swap");
+
+/* ─── Design Tokens (Figma node 1:185 — Epilogue template) ──── */
+:root {
+  --color-black: #2d2d2d;
+  --color-white: #ffffff;
+  --color-surface: #f3f3f3;
+  --color-muted: #6b6b6b;
+
+  --font: "Epilogue", sans-serif;
+
+  /* type scale */
+  --text-body: 17px;
+  --lh-body: 27px;
+  --fw-regular: 400;
+
+  --text-sub: 20px;
+  --lh-sub: 30px;
+  --fw-semi: 600;
+
+  --text-h1: 68px;
+  --lh-h1: 1.05;
+
+  --text-h2: 32px;
+  --lh-h2: 42px;
+
+  --text-h3: 27px;
+  --lh-h3: 42px;
+
+  /* spacing */
+  --sp-xs: 8px;
+  --sp-sm: 12px;
+  --sp-md: 24px;
+  --sp-lg: 42px;
+  --sp-xl: 64px;
+  --sp-2xl: 68px;
+}
+
+/* ─── Reset ──────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  font-size: var(--text-body);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-body);
+  color: var(--color-black);
+  background: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+
+/* ─── Utility ────────────────────────────────────────────────── */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--sp-md);
+}

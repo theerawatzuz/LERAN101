@@ -1,0 +1,82 @@
+.section {
+  background: var(--color-white);
+  padding: var(--sp-lg) 0;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: var(--text-h2);
+  font-weight: var(--fw-semi);
+  line-height: var(--lh-h2);
+  color: var(--color-black);
+  text-align: center;
+  margin-bottom: var(--sp-lg);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-md);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--sp-2xl);
+  flex: 1 0 0;
+  min-width: 300px;
+  padding: var(--sp-lg);
+  background: var(--color-surface);
+}
+
+.text {
+  font-size: var(--text-sub);
+  font-weight: var(--fw-semi);
+  line-height: var(--lh-sub);
+  color: var(--color-black);
+}
+
+.footer {
+  display: flex;
+  gap: var(--sp-md);
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stars {
+  display: flex;
+  gap: 6px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}
+
+.name {
+  font-size: var(--text-sub);
+  font-weight: var(--fw-semi);
+  line-height: var(--lh-sub);
+  color: var(--color-black);
+}
+
+.role {
+  font-size: var(--text-body);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-body);
+  color: var(--color-black);
+}
